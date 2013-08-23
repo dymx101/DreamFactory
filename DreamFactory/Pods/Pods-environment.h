@@ -42,3 +42,9 @@
 #define COCOAPODS_VERSION_MINOR_MMDrawerController_Subclass 4
 #define COCOAPODS_VERSION_PATCH_MMDrawerController_Subclass 0
 
+// PrettyKit
+#define COCOAPODS_POD_AVAILABLE_PrettyKit
+#define COCOAPODS_VERSION_MAJOR_PrettyKit 0
+#define COCOAPODS_VERSION_MINOR_PrettyKit 2
+#define COCOAPODS_VERSION_PATCH_PrettyKit 0
+

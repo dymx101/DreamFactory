@@ -21,6 +21,8 @@
 		EA83E26417C70FBB0032B71E /* TMDRightVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83E26317C70FBB0032B71E /* TMDRightVC.m */; };
 		EA83E26717C712EC0032B71E /* TMDBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83E26617C712EC0032B71E /* TMDBaseVC.m */; };
 		EA83E26A17C713100032B71E /* TMDHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83E26917C713100032B71E /* TMDHomeVC.m */; };
+		EA83E26E17C733340032B71E /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83E26D17C733340032B71E /* MMExampleDrawerVisualStateManager.m */; };
+		EA83E27117C734110032B71E /* TMDNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83E27017C734110032B71E /* TMDNaviController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,10 @@
 		EA83E26617C712EC0032B71E /* TMDBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDBaseVC.m; sourceTree = "<group>"; };
 		EA83E26817C713100032B71E /* TMDHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDHomeVC.h; sourceTree = "<group>"; };
 		EA83E26917C713100032B71E /* TMDHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDHomeVC.m; sourceTree = "<group>"; };
+		EA83E26C17C733340032B71E /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		EA83E26D17C733340032B71E /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		EA83E26F17C734110032B71E /* TMDNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDNaviController.h; sourceTree = "<group>"; };
+		EA83E27017C734110032B71E /* TMDNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDNaviController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,7 @@
 		EA83E25A17C70F600032B71E /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				EA83E26B17C7332B0032B71E /* Others */,
 				EA83E25B17C70F600032B71E /* Categories */,
 				EA83E25C17C70F600032B71E /* Utility */,
 				EA83E25D17C70F600032B71E /* ViewControllers */,
@@ -146,6 +153,8 @@
 		EA83E25D17C70F600032B71E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EA83E26F17C734110032B71E /* TMDNaviController.h */,
+				EA83E27017C734110032B71E /* TMDNaviController.m */,
 				EA83E25F17C70F8A0032B71E /* TMDLeftVC.h */,
 				EA83E26017C70F8A0032B71E /* TMDLeftVC.m */,
 				EA83E26217C70FBB0032B71E /* TMDRightVC.h */,
@@ -163,6 +172,15 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		EA83E26B17C7332B0032B71E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				EA83E26C17C733340032B71E /* MMExampleDrawerVisualStateManager.h */,
+				EA83E26D17C733340032B71E /* MMExampleDrawerVisualStateManager.m */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +290,8 @@
 				EA83E26417C70FBB0032B71E /* TMDRightVC.m in Sources */,
 				EA83E26717C712EC0032B71E /* TMDBaseVC.m in Sources */,
 				EA83E26A17C713100032B71E /* TMDHomeVC.m in Sources */,
+				EA83E26E17C733340032B71E /* MMExampleDrawerVisualStateManager.m in Sources */,
+				EA83E27117C734110032B71E /* TMDNaviController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Pods-PrettyKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,7 +27,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>045468633B6A43D8A728C5FD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>262A7122FC5B4C2C93413B7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B6E615C8ACE472FBFBCC411</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -38,6 +53,16 @@
 			<true/>
 		</dict>
 		<key>D1D1A7FE8DE5431484B8921D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E20CB965ABD44FAE998EE7CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F20AB2B5871D4E07923454C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
