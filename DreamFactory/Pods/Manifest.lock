@@ -12,16 +12,22 @@ PODS:
     - MMDrawerController/Core
   - MMDrawerController/Subclass (0.4.0):
     - MMDrawerController/Core
+  - MMProgressHUD (0.1.0)
   - PrettyKit (0.2.0)
+  - TWSReleaseNotesView (1.1.0)
 
 DEPENDENCIES:
   - AFNetworking (= 0.9.1)
   - MMDrawerController
+  - MMProgressHUD
   - PrettyKit
+  - TWSReleaseNotesView
 
 SPEC CHECKSUMS:
   AFNetworking: 081ec3c1f4768c87ae79d69a96fcc9479e232e81
   MMDrawerController: 44baaee6b79487b4681eb61597fb790586909c0c
+  MMProgressHUD: f04c6eaf027c5d37cd1fadc7ee9f567e5db12c5f
   PrettyKit: 44b8f06f3719579880d2e11cd6498b7464b3b0fa
+  TWSReleaseNotesView: c10b37b7704eb8541e50a54d7781c3e1675bce9a
 
 COCOAPODS: 0.22.2

@@ -42,9 +42,21 @@
 #define COCOAPODS_VERSION_MINOR_MMDrawerController_Subclass 4
 #define COCOAPODS_VERSION_PATCH_MMDrawerController_Subclass 0
 
+// MMProgressHUD
+#define COCOAPODS_POD_AVAILABLE_MMProgressHUD
+#define COCOAPODS_VERSION_MAJOR_MMProgressHUD 0
+#define COCOAPODS_VERSION_MINOR_MMProgressHUD 1
+#define COCOAPODS_VERSION_PATCH_MMProgressHUD 0
+
 // PrettyKit
 #define COCOAPODS_POD_AVAILABLE_PrettyKit
 #define COCOAPODS_VERSION_MAJOR_PrettyKit 0
 #define COCOAPODS_VERSION_MINOR_PrettyKit 2
 #define COCOAPODS_VERSION_PATCH_PrettyKit 0
+
+// TWSReleaseNotesView
+#define COCOAPODS_POD_AVAILABLE_TWSReleaseNotesView
+#define COCOAPODS_VERSION_MAJOR_TWSReleaseNotesView 1
+#define COCOAPODS_VERSION_MINOR_TWSReleaseNotesView 1
+#define COCOAPODS_VERSION_PATCH_TWSReleaseNotesView 0
 

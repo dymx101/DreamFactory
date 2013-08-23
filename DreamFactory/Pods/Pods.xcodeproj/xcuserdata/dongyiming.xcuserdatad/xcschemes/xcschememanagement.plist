@@ -14,10 +14,20 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Pods-MMProgressHUD.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Pods-PrettyKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>Pods-TWSReleaseNotesView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
@@ -32,7 +42,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>09180B5C753F4F8DB7FD00DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>262A7122FC5B4C2C93413B7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2E4F3043E01E4D75B48FE7C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3FBEB8BD78BE45E4B123CED9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4AAC0CF7BC5941D782AF2C21</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57AB8E768453412C854EF950</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,7 +82,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>6EE227AD776C46A4870D1E72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>888868A0FD4D4FDFA75F3AD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8DA02C82E7F44F5E9FC27CCE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A5405C559D734CC092AD8539</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B91A4076E68E46659FB71B99</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,7 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>D76EB7F5561F4751B5047F4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E20CB965ABD44FAE998EE7CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E86A6204DC0C400E8668FD50</key>
 		<dict>
 			<key>primary</key>
 			<true/>
