@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA83E23E17C70CA20032B71E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA83E23D17C70CA20032B71E /* UIKit.framework */; };
+		EA83E24017C70CA20032B71E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA83E23F17C70CA20032B71E /* Foundation.framework */; };
+		EA83E24217C70CA20032B71E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA83E24117C70CA20032B71E /* CoreGraphics.framework */; };
+		EA83E24817C70CA20032B71E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA83E24617C70CA20032B71E /* InfoPlist.strings */; };
+		EA83E24A17C70CA20032B71E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83E24917C70CA20032B71E /* main.m */; };
+		EA83E24E17C70CA20032B71E /* TMDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83E24D17C70CA20032B71E /* TMDAppDelegate.m */; };
+		EA83E25017C70CA20032B71E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA83E24F17C70CA20032B71E /* Default.png */; };
+		EA83E25217C70CA20032B71E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA83E25117C70CA20032B71E /* Default@2x.png */; };
+		EA83E25417C70CA20032B71E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA83E25317C70CA20032B71E /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA83E23A17C70CA20032B71E /* DreamFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA83E23D17C70CA20032B71E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA83E23F17C70CA20032B71E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA83E24117C70CA20032B71E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA83E24517C70CA20032B71E /* DreamFactory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DreamFactory-Info.plist"; sourceTree = "<group>"; };
+		EA83E24717C70CA20032B71E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA83E24917C70CA20032B71E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA83E24B17C70CA20032B71E /* DreamFactory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DreamFactory-Prefix.pch"; sourceTree = "<group>"; };
+		EA83E24C17C70CA20032B71E /* TMDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDAppDelegate.h; sourceTree = "<group>"; };
+		EA83E24D17C70CA20032B71E /* TMDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDAppDelegate.m; sourceTree = "<group>"; };
+		EA83E24F17C70CA20032B71E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA83E25117C70CA20032B71E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA83E25317C70CA20032B71E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA83E23717C70CA20032B71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA83E23E17C70CA20032B71E /* UIKit.framework in Frameworks */,
+				EA83E24017C70CA20032B71E /* Foundation.framework in Frameworks */,
+				EA83E24217C70CA20032B71E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA83E23117C70CA20032B71E = {
+			isa = PBXGroup;
+			children = (
+				EA83E24317C70CA20032B71E /* DreamFactory */,
+				EA83E23C17C70CA20032B71E /* Frameworks */,
+				EA83E23B17C70CA20032B71E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA83E23B17C70CA20032B71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA83E23A17C70CA20032B71E /* DreamFactory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA83E23C17C70CA20032B71E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA83E23D17C70CA20032B71E /* UIKit.framework */,
+				EA83E23F17C70CA20032B71E /* Foundation.framework */,
+				EA83E24117C70CA20032B71E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA83E24317C70CA20032B71E /* DreamFactory */ = {
+			isa = PBXGroup;
+			children = (
+				EA83E24C17C70CA20032B71E /* TMDAppDelegate.h */,
+				EA83E24D17C70CA20032B71E /* TMDAppDelegate.m */,
+				EA83E24417C70CA20032B71E /* Supporting Files */,
+			);
+			path = DreamFactory;
+			sourceTree = "<group>";
+		};
+		EA83E24417C70CA20032B71E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA83E24517C70CA20032B71E /* DreamFactory-Info.plist */,
+				EA83E24617C70CA20032B71E /* InfoPlist.strings */,
+				EA83E24917C70CA20032B71E /* main.m */,
+				EA83E24B17C70CA20032B71E /* DreamFactory-Prefix.pch */,
+				EA83E24F17C70CA20032B71E /* Default.png */,
+				EA83E25117C70CA20032B71E /* Default@2x.png */,
+				EA83E25317C70CA20032B71E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA83E23917C70CA20032B71E /* DreamFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA83E25717C70CA20032B71E /* Build configuration list for PBXNativeTarget "DreamFactory" */;
+			buildPhases = (
+				EA83E23617C70CA20032B71E /* Sources */,
+				EA83E23717C70CA20032B71E /* Frameworks */,
+				EA83E23817C70CA20032B71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamFactory;
+			productName = DreamFactory;
+			productReference = EA83E23A17C70CA20032B71E /* DreamFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA83E23217C70CA20032B71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TMD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ToMaDon;
+			};
+			buildConfigurationList = EA83E23517C70CA20032B71E /* Build configuration list for PBXProject "DreamFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA83E23117C70CA20032B71E;
+			productRefGroup = EA83E23B17C70CA20032B71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA83E23917C70CA20032B71E /* DreamFactory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA83E23817C70CA20032B71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA83E24817C70CA20032B71E /* InfoPlist.strings in Resources */,
+				EA83E25017C70CA20032B71E /* Default.png in Resources */,
+				EA83E25217C70CA20032B71E /* Default@2x.png in Resources */,
+				EA83E25417C70CA20032B71E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA83E23617C70CA20032B71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA83E24A17C70CA20032B71E /* main.m in Sources */,
+				EA83E24E17C70CA20032B71E /* TMDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA83E24617C70CA20032B71E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA83E24717C70CA20032B71E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA83E25517C70CA20032B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA83E25617C70CA20032B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA83E25817C70CA20032B71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DreamFactory/DreamFactory-Prefix.pch";
+				INFOPLIST_FILE = "DreamFactory/DreamFactory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA83E25917C70CA20032B71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DreamFactory/DreamFactory-Prefix.pch";
+				INFOPLIST_FILE = "DreamFactory/DreamFactory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA83E23517C70CA20032B71E /* Build configuration list for PBXProject "DreamFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA83E25517C70CA20032B71E /* Debug */,
+				EA83E25617C70CA20032B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA83E25717C70CA20032B71E /* Build configuration list for PBXNativeTarget "DreamFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA83E25817C70CA20032B71E /* Debug */,
+				EA83E25917C70CA20032B71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA83E23217C70CA20032B71E /* Project object */;
+}
