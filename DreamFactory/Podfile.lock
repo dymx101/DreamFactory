@@ -1,10 +1,24 @@
 PODS:
   - AFNetworking (0.9.1)
+  - MMDrawerController (0.4.0):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController/Core (0.4.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.4.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.4.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.4.0):
+    - MMDrawerController/Core
 
 DEPENDENCIES:
   - AFNetworking (= 0.9.1)
+  - MMDrawerController
 
 SPEC CHECKSUMS:
   AFNetworking: 081ec3c1f4768c87ae79d69a96fcc9479e232e81
+  MMDrawerController: 44baaee6b79487b4681eb61597fb790586909c0c
 
 COCOAPODS: 0.22.2
